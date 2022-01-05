@@ -1,0 +1,20 @@
+#' NPR Books We Love suggestions (formerly NPR Book Concierge).
+#'
+#' A data set containing books and their special tags (and other information)
+#' for years 2013 - 2021. Interactive application can be found at \url{https://apps.npr.org/best-books/}
+#'
+#' @format A data frame with 2835 observations and 9 variables:
+#'
+#' \describe{
+#'     \item{\code{title}}{\code{Character}. Title of the book}
+#'     \item{\code{authors}}{\code{Character}. Authors of the book, multiple authors are separated by commas}
+#'     \item{\code{tags}}{\code{List}. Each row is a vector of characters containing the different tags assigned by NPR contributors}
+#'     \item{\code{isbn10}}{\code{Character}. ISBN-10 code}
+#'     \item{\code{blurb}}{\code{Character}. Blurb written for the book by NPR contributors}
+#'     \item{\code{blurb_auth}}{\code{Character}. Blurb author}
+#'     \item{\code{blurb_auth_role}}{\code{Character}. Short description of the role of the blurb author}
+#'     \item{\code{img_url}}{\code{Character}. Link to hosted image file}
+#'     \item{\code{yr_list}}{\code{Double}. The year where the book was chosen. Since each list was formed only for books published within the year,
+#'         it is essentially the publication year}
+#' }
+"nprbooks"
